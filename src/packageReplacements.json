@@ -1,5 +1,18 @@
 {
   "oasis-engine": "@galacean/engine",
   "oasis-engine-toolkit": "@galacean/engine-toolkit",
-  "@oasis-engine/physics-physx": "@galacean/engine-physics-physx"
+  "@oasis-engine/loader": "@galacean/engine-loader",
+  "@oasis-engine/math": "@galacean/engine-math",
+  "@oasis-engine/rhi-webgl": "@galacean/engine-rhi-webgl",
+  "@oasis-engine/design": "@galacean/engine-design",
+  "@oasis-engine/physics-physx": "@galacean/engine-physics-physx",
+  "@oasis-engine/physics-lite": "@galacean/engine-physics-lite",
+  "@oasis-engine-toolkit/controls": "@galacean/engine-toolkit-controls",
+  "@oasis-engine-toolkit/stats": "@galacean/engine-toolkit-stats",
+  "@oasis-engine-toolkit/framebuffer-picker": "@galacean/engine-toolkit-framebuffer-picker",
+  "@oasis-engine-toolkit/auxiliary-lines": "@galacean/engine-toolkit-auxiliary-lines",
+  "@oasis-engine-toolkit/outline": "@galacean/engine-toolkit-outline",
+  "@oasis-engine-toolkit/planar-shadow-material": "@galacean/engine-toolkit-planar-shadow-material",
+  "@oasis-engine/engine-spine": "@galacean/engine-spine",
+  "@oasis-engine/lottie": "@galacean/engine-lottie"
 }
