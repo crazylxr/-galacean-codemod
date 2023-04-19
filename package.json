@@ -1,0 +1,41 @@
+{
+  "name": "galacean-codemod",
+  "version": "0.0.1",
+  "description": "将 oasis 升级到 galacean 的 codemod",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "bin": {
+    "galacean-codemod": "bin/galacean-codemod.js"
+  },
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build",
+    "build:deps": "father prebundle",
+    "test": "mocha",
+    "prepublishOnly": "father doctor && npm run build"
+  },
+  "keywords": [
+    "codemod",
+    "galacean",
+    "oasis"
+  ],
+  "authors": [
+    "xiaoran.lee@qq.com"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "father": "^4.1.8",
+    "mocha": "^10.2.0",
+    "mock-fs": "^5.2.0"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.11"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "oasis-engine": "@galacean/engine",
+  "oasis-engine-toolkit": "@galacean/engine-toolkit",
+  "@oasis-engine/physics-physx": "@galacean/engine-physics-physx"
+}
