@@ -10,6 +10,11 @@
 ```bash
 npx galacean-codemod
 ```
+更新完依赖之后再重新装一下依赖：
+
+```bash
+npm update
+```
 
 ## LICENSE
 
