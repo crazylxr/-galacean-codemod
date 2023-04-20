@@ -7,7 +7,7 @@ function updateCodeFiles(dirPath, packages) {
   codeFiles.forEach((file) => {
     let content = fs.readFileSync(file, { encoding: "utf-8" });
     for (const oldPackage in packages) {
-      const regex = new RegExp(`import (.*?) from ['"]${oldPackage}['"]`, "g");
+      const regex = new RegExp(`import (.*?) from ['"]${oldPackage}['"]`, "gms");
       content = content.replace(
         regex,
         `import $1 from "${packages[oldPackage]}"`

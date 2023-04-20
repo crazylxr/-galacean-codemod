@@ -1,6 +1,6 @@
 {
   "name": "galacean-codemod",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "将 oasis 升级到 galacean 的 codemod",
   "main": "dist/cjs/index.js",
   "types": "dist/cjs/index.d.ts",

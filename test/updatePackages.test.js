@@ -24,6 +24,7 @@ describe("updatePackages", () => {
     const dirPath = "./src";
     updateCodeFiles(dirPath, packages);
     const updatedContent = fs.readFileSync("./src/file1.js", "utf-8");
+    console.log('upa:', updatedContent);
     const expectedContent =
       'import { Engine } from "@galacean/engine";\nimport { Physics } from "@galacean/engine-physics-physx";';
     assert.strictEqual(
